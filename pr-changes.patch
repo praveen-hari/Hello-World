@@ -1,0 +1,57 @@
+From cfb0d9d8300ec3c7364b44bb649abdb531c5dc3a Mon Sep 17 00:00:00 2001
+From: CodeStudio Agent <agent@codestudio.ai>
+Date: Wed, 29 Apr 2026 06:06:52 +0000
+Subject: [PATCH 1/2] create simple text file with hello-workd
+
+---
+ hello-world.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello-world.txt
+
+diff --git a/hello-world.txt b/hello-world.txt
+new file mode 100644
+index 0000000..bdd51cc
+--- /dev/null
++++ b/hello-world.txt
+@@ -0,0 +1 @@
++hello-world
+\ No newline at end of file
+-- 
+2.39.5
+
+
+From 7f9ac32b356457153cae9602270c35e6ae5bb86f Mon Sep 17 00:00:00 2001
+From: CodeStudio Agent <agent@codestudio.ai>
+Date: Wed, 29 Apr 2026 06:07:33 +0000
+Subject: [PATCH 2/2] create pr
+
+---
+ pull_request.md | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+ create mode 100644 pull_request.md
+
+diff --git a/pull_request.md b/pull_request.md
+new file mode 100644
+index 0000000..f1c2f41
+--- /dev/null
++++ b/pull_request.md
+@@ -0,0 +1,15 @@
++# Pull Request: Add hello-world.txt file
++
++## Description
++Added a simple text file with hello-world content.
++
++## Changes Made
++- Created hello-world.txt with the content "hello-world"
++
++## To Create This PR
++When you have GitHub access, run:
++```bash
++git checkout add-hello-world
++git push -u origin add-hello-world
++gh pr create --title "Add hello-world.txt file" --body "Added a simple text file with hello-world content" --head add-hello-world
++```
+\ No newline at end of file
+-- 
+2.39.5
+
