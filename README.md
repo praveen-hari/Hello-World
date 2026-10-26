@@ -2,7 +2,7 @@
 
 A simple Hello World project.
 
-## Getting Started
+## Getting Started sample
 
 ```bash
 # Clone the repository
